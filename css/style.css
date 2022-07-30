@@ -1,3 +1,32 @@
 body {
-    background-color: darkcyan;
+    background-color: #313169;
+}
+
+.container {
+    background-color: #316931;
+    width: 45vw;
+    padding: 40px;
+    margin: auto;
+}
+
+#birth_year {
+    font-size: 25px;
+}
+
+#result {
+    text-align: center;
+    text-decoration: none;
+    font-size: 32px;
+    margin-top: 15px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+body > div > form > a > #result {
+    text-decoration: none;
+}
+
+#result:hover {
+    color: #0012aa;
+    padding-bottom: 10px;
 }
